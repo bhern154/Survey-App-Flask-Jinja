@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block title %}Survey{% endblock %}
+
+{% block content %}
+
+<form action = "/questions/0">
+    <p class="title">{{title}}</p>
+    <p class="instructions">{{instructions}}</p>
+    <button type="submit">Begin Survey</button>
+</form>
+
+{% endblock %}
